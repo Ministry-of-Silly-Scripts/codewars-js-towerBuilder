@@ -1,5 +1,5 @@
-const placeholder = () => true;
+const towerBuilder = () => true;
 
 module.exports = {
-  placeholder,
+  towerBuilder,
 };

@@ -1,8 +1,8 @@
-# XXXXX kata 
+# Build Tower kata (6 kyu) 
 
-XXXXX kata performed by to practice TDD for the Jaguars training at IBM
+Build Towerkata performed by to practice TDD for the Jaguars training at IBM
 
-[XXXXXX on CodeWars](https://www.codewars.com/kata/)
+[Build Tower on CodeWars](https://www.codewars.com/kata/576757b1df89ecf5bd00073b)
 
 ## Prerequisites
 
