@@ -32,7 +32,7 @@ And a tower with 6 floors looks like this:
 ## Domain Discussion
 - input: positive integer number
 - output: "tower block" with n floors (n -> input) -> array
-- 1 floor `[*]`
+- 1 floor `["*"]`
 ```
 2 floors 
 " * " -> _1_
@@ -73,3 +73,6 @@ TODO:
     - update code/test files ✅
 - domain discussion 🚧
 - perform the 'canary' test just to check if the structure works construction ✅
+
+# Pomodoro 2 🍅:
+- it should return [*] for a single floor ✅

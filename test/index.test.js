@@ -6,6 +6,8 @@ describe('the towerBuilder canary spec', () => {
   });
 });
 
-// test("test towerBuilder", () => {
-//   expect(towerBuilder(0)).toBe(true);
-// });
+describe('towerBuilder', () => {
+  it('it should return ["*"] for 1 floor', () => {
+    expect(towerBuilder(1)).toStrictEqual(["*"]);
+  });
+});

@@ -1,4 +1,6 @@
-const towerBuilder = () => true;
+const towerBuilder = () => {
+  return ["*"]
+};
 
 module.exports = {
   towerBuilder,
