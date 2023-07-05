@@ -78,3 +78,4 @@ TODO:
 - it should return ["*"] for a single floor ✅
 - it should return [" * ", "***"] for 2 floors ✅
 - it should return ["  *  ", " *** ", "*****"] for 3 floors ✅
+- refactor: added last row as per domain description ✅
