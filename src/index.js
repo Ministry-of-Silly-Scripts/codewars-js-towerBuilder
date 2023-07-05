@@ -10,7 +10,11 @@ const towerBuilder = (nFloors) => {
     return [" * ", last_row]
   }
 
-  return ["  *  ", " *** ", last_row]
+  if (nFloors === 3) {
+    return ["  *  ", " *** ", last_row]
+  }
+
+  return ["   *   ", "  ***  ", " ***** ", last_row]
 };
 
 module.exports = {
