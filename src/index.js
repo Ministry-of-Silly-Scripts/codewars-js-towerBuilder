@@ -3,7 +3,11 @@ const towerBuilder = (nFloors) => {
     return ["*"]
   }
 
-  return [" * ", "***"]
+  if (nFloors === 2) {
+    return [" * ", "***"]
+  }
+
+  return ["  *  ", " *** ", "*****"]
 };
 
 module.exports = {

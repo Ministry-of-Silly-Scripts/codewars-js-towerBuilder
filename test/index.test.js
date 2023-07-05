@@ -14,4 +14,8 @@ describe('towerBuilder', () => {
   it('it should return [" * ", "***"] for 2 floors', () => {
     expect(towerBuilder(2)).toStrictEqual([" * ", "***"]);
   });
+
+  it('it should return ["  *  ", " *** ", "*****"] for 3 floors', () => {
+    expect(towerBuilder(3)).toStrictEqual(["  *  ", " *** ", "*****"]);
+  });
 });
