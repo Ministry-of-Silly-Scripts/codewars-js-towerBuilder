@@ -1,20 +1,16 @@
 const towerBuilder = (nFloors) => {
-  number_start_last_row = 2 * nFloors - 1
-  last_row = "*".repeat(number_start_last_row);
+  number_stars_last_row = 2 * nFloors - 1
+  tower = []
 
-  if (nFloors === 1) {
-    return [last_row]
+  for (let i = 0; i < number_stars_last_row; i += 2) {
+    nspaces = (number_stars_last_row - i - 1)/2
+    nstars = number_stars_last_row - 2 * nspaces 
+    spaces = " ".repeat(nspaces)
+    stars = spaces + "*".repeat(nstars) + spaces 
+    tower.push(stars)
   }
 
-  if (nFloors === 2) {
-    return [" * ", last_row]
-  }
-
-  if (nFloors === 3) {
-    return ["  *  ", " *** ", last_row]
-  }
-
-  return ["   *   ", "  ***  ", " ***** ", last_row]
+  return tower;
 };
 
 module.exports = {

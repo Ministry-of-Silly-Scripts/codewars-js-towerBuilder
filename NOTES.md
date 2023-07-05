@@ -55,7 +55,6 @@ And a tower with 6 floors looks like this:
 ```
 - first floor = total size of all arrays
 - size of last array = 2 * number of floors - 1
-
 ---
 
 **Label**  
@@ -80,3 +79,7 @@ TODO:
 - it should return ["  *  ", " *** ", "*****"] for 3 floors ✅
 - refactor: added last row as per domain description ✅
 - it should return ["   *   ", "  ***  ", " ***** ", "*******"] for 4 floors ✅
+
+# Pomodoro 3 🍅:
+- refactor: using loop ✅
+- it should return ["     *     ", "    ***    ", "   *****   ", "  *******  ", " ********* ", "***********"] for 6 floors ✅
